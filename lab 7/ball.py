@@ -29,7 +29,7 @@ while game:
         if x < 565:
             x += dx
 
-    print(x,y)
+    print(x, y)
     screen.fill(pygame.Color("white"))
     pygame.draw.circle(screen, pygame.Color("black"), (x, y), 25)
 

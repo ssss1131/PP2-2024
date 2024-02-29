@@ -18,11 +18,11 @@ print(z)
 # 5
 x, y, z = "Orange", "Banana", "Cherry"
 
-#6
-x=y=z="Orange"
+# 6
+x = y = z = "Orange"
 
-#7
+
+# 7
 def myfunc():
     global x
-    x="fantastic"
-
+    x = "fantastic"
